@@ -1,6 +1,10 @@
 # project2
 
 ## User Story
+<!-- tentative user story -->
+AS AN internet troll
+I WANT to have a space to post my opinions and argue them
+SO THAT I can feel validated or get destroyed by my internet superiors
 
 ## App Functionality
 
