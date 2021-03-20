@@ -5,6 +5,8 @@
 ## App Functionality
 
 ## Creators
+Authored by: Carter Venne, Jayden Watts, Mitch Lindquist, Helen Lindberg, & Abdirahman Adam
+
 Github repository:https://github.com/carterVenne/project2
 
 Deployed application:
