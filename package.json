@@ -1,11 +1,12 @@
 {
   "name": "project2",
   "version": "1.0.0",
-  "description": "",
+  "description": "## User Story <!-- tentative user story --> AS AN internet troll I WANT to have a space to post my opinions and argue them SO THAT I can feel validated or get destroyed by my internet superiors",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,6 @@
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2"
-  }
+  },
+  "devDependencies": {}
 }
