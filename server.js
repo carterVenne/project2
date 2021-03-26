@@ -4,9 +4,12 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
-
+const helmet = require("helmet");
 const sequelize = require('./config/connection');
 
+const app = express();
+
+app.use(helmet());
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
