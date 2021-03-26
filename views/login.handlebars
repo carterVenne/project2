@@ -1,17 +1,38 @@
-<h2>Login</h2>
-
-<form class="form login-form">
-  <div class="form-group">
-    <label for="email-login">email:</label>
-    <input class="form-input" type="text" id="email-login" />
-  </div>
-  <div class="form-group">
-    <label for="password-login">password:</label>
-    <input class="form-input" type="password" id="password-login" />
-  </div>
-  <div class="form-group">
-    <button class="btn btn-primary" type="submit">login</button>
-  </div>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="" class="logo-img">
+            <p>troll.patrol</p>
+        </nav>
+    </header>
+    <main>
+        <div class="landing-wrapper">
+            <div class="login-card">
+                <h1>Log in</h1>
+                <p class="login-subtitle">Don't have an account? <a href="#" class="signup-link">Sign up today</a></p>
+                <form action="/">
+                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" name="password" placeholder="Password">
+                    <button type="submit" href="/">LOG IN</button>
+                </form>
+                <p class="or">OR</p>
+                <a href="#" id="create-account">
+                    <button>CREATE AN ACCOUNT</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
 
 <script src="/js/login.js"></script>
