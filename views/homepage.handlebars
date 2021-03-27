@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{#each posts as |post|}}
 
 {{> post-info post }}
@@ -6,3 +7,63 @@
 {{else}}
 <h6 class="pb-4 has-text-centered is-italic">there are currently no posts</h6>
 {{/each}}
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-cnt">
+                    <img src="assets/logo.png" alt="" class="logo-img">
+                    <p>troll.patrol</p>
+                </div>
+                <div class="user-cnt">
+                    <!-- USE HANDLEBARS TO CHANGE THIS #username TO THE USER'S USERNAME -->
+                    <p id="username">Username</p>
+                    <!-- PROFILE PICTURE WILL STAY STATIC FOR NOW, ICEBOX IDEA -->
+                    <img src="assets/userProfile.png" alt="">
+                    <button id="logout-button" href="#">Logout</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="main-cnt">
+                <div class="create-thread-cnt">
+                    <input type="text" id="create-thread-input" placeholder="What's on your mind?">
+                    <button id="create-thread-btn">+</button>
+                </div>    
+                <!-- .thread-cnt IS WHERE GENERATED THREADS WILL BE APPENDED TO -->
+                <div class="thread-cnt">
+                    <!-- THIS IS A TEMPLATE FOR A GENERATED THREAD, THIS CAN BE USED WITH HANDLEBARS -->
+                    <div class="thread">
+                        <h3 class="thread-head">Wasps are just useless bees.</h3>
+                        <div class="comment">
+                            <div class="comment-top">
+                                <hr>
+                                <!-- PROFILE PICTURE WILL STAY STATIC FOR NOW, ICEBOX IDEA -->
+                                <img src="assets/userProfile.png" alt="">
+                                <!-- USE HANDLEBARS TO CHANGE THIS #username TO THE USER'S USERNAME -->
+                                <p class="username">USERNAME</p>
+                            </div>
+                            <p class="comment-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum porro, tempore praesentium repudiandae vitae. Ipsam placeat, tenetur dolores officia soluta sunt numquam perspiciatis. Iusto reprehenderit eius unde, animi recusandae quas veritatis eligendi in tempora repellendus nesciunt.</p>
+                        </div>
+                        <div class="create-comment-cnt">  
+                            <input type="text" class="create-comment-input" placeholder="Add comment...">
+                            <button class="create-comment-btn">+</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>    
+        </main>
+    </div>
+</body>
+</html>
+>>>>>>> 4d2490f6945169cd9ce8ada3950d13e7e32e1039
