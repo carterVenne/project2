@@ -1,0 +1,458 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  background-size: cover;
+  background-position: 15% bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  width: 95%;
+  margin: 0 auto;
+  height: 8vh;
+}
+
+nav .logo-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .logo-cnt img {
+  width: 30px;
+}
+
+nav .logo-cnt p {
+  margin-left: 0.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
+}
+
+nav .user-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+}
+
+nav .user-cnt img {
+  margin-left: 0.5rem;
+}
+
+nav .user-cnt button {
+  margin-left: 0.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 8vh;
+  }
+  nav .logo-cnt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav .logo-cnt img {
+    width: 30px;
+  }
+  nav .logo-cnt p {
+    margin-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+  }
+  nav .user-cnt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+  }
+  nav .user-cnt img {
+    margin-left: 0.5rem;
+  }
+  nav .user-cnt button {
+    margin-left: 0.5rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+/* CREATE THREAD CONTAINER (MOBILE) */
+.main-cnt {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.create-thread-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.create-thread-cnt #create-thread-input {
+  display: block;
+  width: 70%;
+  height: 4rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+  background: #000;
+  color: #fff;
+  outline: none;
+}
+
+.create-thread-cnt #create-thread-input::-webkit-input-placeholder {
+  color: #d4d4d4;
+}
+
+.create-thread-cnt #create-thread-input:-ms-input-placeholder {
+  color: #d4d4d4;
+}
+
+.create-thread-cnt #create-thread-input::-ms-input-placeholder {
+  color: #d4d4d4;
+}
+
+.create-thread-cnt #create-thread-input::placeholder {
+  color: #d4d4d4;
+}
+
+.create-thread-cnt #create-thread-btn {
+  height: 4rem;
+  width: 10%;
+  border: none;
+  background: #FF3F6D;
+  color: #fff;
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+/* CREATE THREAD CONTAINER (DESKTOP) */
+@media only screen and (min-width: 768px) {
+  .main-cnt {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .create-thread-cnt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .create-thread-cnt #create-thread-input {
+    display: block;
+    width: 75%;
+    height: 4rem;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    background: #000;
+    color: #fff;
+    outline: none;
+  }
+  .create-thread-cnt #create-thread-input::-webkit-input-placeholder {
+    color: #d4d4d4;
+  }
+  .create-thread-cnt #create-thread-input:-ms-input-placeholder {
+    color: #d4d4d4;
+  }
+  .create-thread-cnt #create-thread-input::-ms-input-placeholder {
+    color: #d4d4d4;
+  }
+  .create-thread-cnt #create-thread-input::placeholder {
+    color: #d4d4d4;
+  }
+  .create-thread-cnt #create-thread-btn {
+    height: 4rem;
+    width: 5%;
+    border: none;
+    background: #FF3F6D;
+    color: #fff;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+/* GENERATED THREADS (MOBILE) */
+.thread-cnt {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.thread .thread-head {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  background: #000;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.thread .comment-top {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thread .comment-top hr {
+  width: 20px;
+  height: 5px;
+  background: #000;
+  border: none;
+}
+
+.thread .comment-top img {
+  margin-left: 0.5rem;
+}
+
+.thread .comment-top p {
+  font-family: "Roboto", sans-serif;
+  margin-left: 0.5rem;
+}
+
+.thread .comment-content {
+  margin-left: 20px;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.thread .create-comment-cnt {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.thread .create-comment-cnt .create-comment-input {
+  display: block;
+  height: 2rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+  background: #000;
+  color: #fff;
+  outline: none;
+}
+
+.thread .create-comment-cnt .create-comment-input::-webkit-input-placeholder {
+  color: #d4d4d4;
+}
+
+.thread .create-comment-cnt .create-comment-input:-ms-input-placeholder {
+  color: #d4d4d4;
+}
+
+.thread .create-comment-cnt .create-comment-input::-ms-input-placeholder {
+  color: #d4d4d4;
+}
+
+.thread .create-comment-cnt .create-comment-input::placeholder {
+  color: #d4d4d4;
+}
+
+.thread .create-comment-cnt .create-comment-btn {
+  height: 2rem;
+  width: 10%;
+  border: none;
+  background: #FF3F6D;
+  color: #fff;
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+/* GENERATED THREADS (DESKTOP) */
+@media only screen and (min-width: 768px) {
+  .thread-cnt {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+  }
+  .thread .thread-head {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 100%;
+    background: #000;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  .thread .comment-top {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .thread .comment-top hr {
+    width: 20px;
+    height: 5px;
+    background: #000;
+    border: none;
+  }
+  .thread .comment-top img {
+    margin-left: 0.5rem;
+  }
+  .thread .comment-top p {
+    font-family: "Roboto", sans-serif;
+    margin-left: 0.5rem;
+  }
+  .thread .comment-content {
+    margin-left: 20px;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .thread .create-comment-cnt {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .thread .create-comment-cnt .create-comment-input {
+    display: block;
+    height: 2rem;
+    width: 90%;
+    font-size: 1rem;
+    padding: 0 1rem;
+    background: #000;
+    color: #fff;
+    outline: none;
+  }
+  .thread .create-comment-cnt .create-comment-input::-webkit-input-placeholder {
+    color: #d4d4d4;
+  }
+  .thread .create-comment-cnt .create-comment-input:-ms-input-placeholder {
+    color: #d4d4d4;
+  }
+  .thread .create-comment-cnt .create-comment-input::-ms-input-placeholder {
+    color: #d4d4d4;
+  }
+  .thread .create-comment-cnt .create-comment-input::placeholder {
+    color: #d4d4d4;
+  }
+  .thread .create-comment-cnt .create-comment-btn {
+    height: 2rem;
+    width: 10%;
+    border: none;
+    background: #FF3F6D;
+    color: #fff;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=home.css.map */
