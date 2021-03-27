@@ -11,14 +11,11 @@ async function signupFormHandler(event) {
           body: JSON.stringify({
             username,
             email,
-            twitter,
-            github,
             password
           }),
           headers: { 'Content-Type': 'application/json' }
         });
-    
-        // check the response status
+
         if (response.ok) {
           console.log('success');
           document.location.replace('/dashboard');
