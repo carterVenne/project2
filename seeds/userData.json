@@ -1,26 +1,26 @@
 [
     {
-      "name": "Bob",
+      "username": "Bob",
       "email": "BobLogBlog@hotmail.com",
       "password": "password12345"
     },
     {
-      "name": "Steve",
+      "username": "Steve",
       "email": "SteveDave@gmail.com",
       "password": "password12345"
     },
     {
-      "name": "Crash",
+      "username": "Crash",
       "email": "CrashOverride@aol.com",
       "password": "password12345"
     },
     {
-      "name": "Ted",
+      "username": "Ted",
       "email": "theodorelogan@msn.com",
       "password": "password12345"
     },
     {
-      "name": "Bill",
+      "username": "Bill",
       "email": "bill.s.preston.esq@yahoo.com",
       "password": "password12345"
     }
