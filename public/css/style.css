@@ -36,9 +36,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: space-between;
+      -ms-flex-pack: space-between;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -180,4 +180,12 @@ nav p {
 .login-card {
   max-width: 400px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.logo-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.logo-cnt p {
+  margin-left: 0.75rem;
+}

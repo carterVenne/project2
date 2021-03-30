@@ -13,8 +13,10 @@
   <div>
     <header class="display-flex justify-space-between align-center p-2">
       <nav>
-          <img src="assets/logo.png" alt="" class="logo-img">
-          <p>troll.patrol</p>
+          <div class="logo-cnt">
+            <img src="assets/logo.png" alt="" class="logo-img">
+            <p>troll.patrol</p>
+          </div>
         {{#if logged_in}}
           <a href="/logout"><button class="btn" id="logout">logout</button> </a>
         {{else}}
