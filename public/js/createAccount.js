@@ -25,4 +25,4 @@ async function signupFormHandler(event) {
       }
   }
     
-  document.querySelector('#create-account').addEventListener('submit', signupFormHandler);
+  document.querySelector('createAccount').addEventListener('submit', signupFormHandler);
