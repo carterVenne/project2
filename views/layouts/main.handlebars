@@ -15,8 +15,9 @@
       <nav>
           <img src="assets/logo.png" alt="" class="logo-img">
           <p>troll.patrol</p>
-        {{#if logged_in}}
-          <a href="/logout"><button class="btn" id="logout">logout</button> </a>
+        {{#if loggedIn}}
+        <a href="/">Homepage</a>
+          <button id="logout" class="btn">logout</button>
         {{else}}
           <a href="/login"><button class="btn" id="login">login</button></a>
         {{/if}}
@@ -28,10 +29,10 @@
     </main>
   </div>
 
-    {{#if logged_in}}
+    {{#if loggedIn}}
     <script src="/js/logout.js"></script>
     {{/if}}
 
-</body>
+
 
 </html>

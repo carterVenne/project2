@@ -2,19 +2,23 @@ const { Post } = require('../models');
 
 const postData = [
     {
-        post_content: "The Star Wars prequels are absolute crap.",
+        title: "The Star Wars prequels are absolute crap.",
+        post_content: "George Lucas is an ass. He ruined my childhood with this unnecessary filth.",
         user_id: 1
     },
     {
-        post_content: "I actually kinda like pineapple on pizza?",
+        title: "I actually kinda like pineapple on pizza?",
+        post_content: "I don't understand what the big deal is. Either order it or don't, but stop getting so emotional about it.",
         user_id: 2
     },
     {
-        post_content: "I don't think we as a society need Katy Perry.",
+        title: "I don't think we as a society need Katy Perry.",
+        post_content: "She sucks. Big. Can we vote her off or something?",
         user_id: 3
     },
     {
-        post_content: "Babies are not cute.",
+        title: "Babies are not cute.",
+        post_content: "That is all",
         user_id: 4
     }
 ]
