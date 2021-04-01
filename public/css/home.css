@@ -529,3 +529,7 @@ main {
     font-style: italic;
   }
 }
+
+.card-body {
+  color: #fff;
+}
