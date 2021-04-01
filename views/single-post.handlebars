@@ -1,16 +1,16 @@
 {{> post-info post}}
 
 {{#if loggedIn}}
-<form class="comment-form">
+<div class="comment-form">
   <div>
     <textarea class="ml-5" name="comment-body"></textarea>
   </div>
 
   <div>
-    <button class="button is-warning ml-5 mb-5" type="submit">add comment</button>
+    <button class="button is-warning ml-5 mb-5">add comment</button>
   </div>
   
-</form>
+</div>
 {{/if}}
 
 {{> comments post.comments}}
