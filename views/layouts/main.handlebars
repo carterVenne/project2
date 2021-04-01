@@ -13,14 +13,17 @@
   <div>
     <header class="display-flex justify-space-between align-center p-2">
       <nav>
-          <img src="assets/logo.png" alt="" class="logo-img">
-          <p>troll.patrol</p>
-        {{#if loggedIn}}
-        <a href="/">Homepage</a>
-          <button id="logout" class="btn">logout</button>
-        {{else}}
-          <a href="/login"><button class="btn" id="login">login</button></a>
-        {{/if}}
+          <div class="logo-cnt"> 
+            <img src="assets/logo.png" alt="" class="logo-img">
+            <p>troll.patrol</p>
+          </div> 
+          <div class="btn-cnt">
+            <button class="btn">
+              <a href="/">Homepage</a>
+            </button>
+            <button id="logout" class="btn">logout</button>
+          </div>
+            
       </nav>
     </header>
 
