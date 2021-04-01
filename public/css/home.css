@@ -33,7 +33,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   width: 95%;
   margin: 0 auto;
   height: 8vh;
@@ -88,6 +88,22 @@ nav .user-cnt button {
   text-decoration: underline;
   cursor: pointer;
   outline: none;
+}
+
+nav .btn-cnt button {
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+nav .btn-cnt button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+nav .btn-cnt a {
+  text-decoration: none;
+  color: #000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -456,3 +472,60 @@ nav .user-cnt button {
   }
 }
 /*# sourceMappingURL=home.css.map */
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 8vh;
+}
+
+.card {
+  font-family: "Oswald";
+  font-weight: 200;
+  background: #000;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+
+.card-header p {
+  color: #fff;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 8vh;
+  }
+  
+  .card {
+    font-family: "Oswald";
+    font-weight: 200;
+    background: #000;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.6rem;
+  }
+  
+  
+  .card-header p {
+    color: #fff;
+    font-style: italic;
+  }
+}
