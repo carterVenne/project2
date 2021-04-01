@@ -17,11 +17,15 @@
             <img src="assets/logo.png" alt="" class="logo-img">
             <p>troll.patrol</p>
           </div> 
+          {{#if loggedIn}}
           <div class="btn-cnt">
             <button class="homepage-btn">
               <a href="/">Homepage</a>
             </button>
             <button id="logout" class="btn">logout</button>
+            {{else}}
+          <a href="/login"><button class="btn" id="login">login</button></a>
+        {{/if}}
           </div>
             
       </nav>
