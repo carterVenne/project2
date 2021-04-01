@@ -536,6 +536,11 @@ main {
   color: #fff;
 }
 
+.comment-form > div > textarea {
+  width: 100%;
+  border: none; 
+}
+
 .comment-form > div > button {
    background: #d4d4d4;
    color: #000;
