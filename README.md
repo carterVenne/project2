@@ -9,8 +9,16 @@ SO THAT I can feel validated or get destroyed by my internet superiors
 Troll patrol was designed as a forum site based upon the premise of unpopular opinions and people's abilities to argue for/against them.
 Using troll patrol is straight forward and easy, simply create an account or log in then put forth your controversial opinion of the day. Afterwards all you need to do is let your fellow trolls put in their two cents and you can come back to rebuke.
 
+## Live application
+Login page:
+<img src="public/readme_assets/tp login.png">
+<br>
+Homepage:
+<img src="public/readme_assets/tp homepage.png">
+<br>
+
 ## Creators
-Authored by: Carter Venne, Jayden Watts, Mitch Lindquist, Helen Lindberg, Francis Jeffries & Abdirahman Adam
+Authored by: Carter Venne, Jayden Watts, Mitch Lindquist, Helen Lindberg, & Francis Jeffries
 
 Github repository: https://github.com/carterVenne/project2
 
