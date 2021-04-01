@@ -31,7 +31,7 @@ button {
 }
 
 /* NAV */
-nav {
+/* nav {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ nav {
           align-items: center;
   left: 0.5rem;
   top: 0.5rem;
-}
+} */
 
 nav img {
   width: 30px;
