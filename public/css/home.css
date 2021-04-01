@@ -546,3 +546,21 @@ main {
    color: #000;
    margin-bottom: 0.5rem;
 }
+
+.comment-form {
+  margin-left: 0.75rem;
+}
+
+.comments {
+ margin-left: 0.75rem; 
+}
+
+@media only screen and (min-width: 768px) {
+    .comment-form {
+    margin-left: 3rem;
+  }
+
+  .comments {
+   margin-left: 3rem; 
+  }
+}
