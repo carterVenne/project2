@@ -24,6 +24,9 @@ router.post('/', withAuth, (req, res) => {
         console.log(err);
         res.status(400).json(err);
       });
+  } else {
+    console.log("user did not have session, redirect home")
+    res.redirect('/')
   }
 });
 
